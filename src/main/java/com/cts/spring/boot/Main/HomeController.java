@@ -52,12 +52,6 @@ public class HomeController {
 		headers.setContentType(MediaType.APPLICATION_JSON);
 		headers.add("Authorization", "key="+AUTH_KEY_FCM);
 		
-		/*List<String> ids = new ArrayList<>();
-		ids.add("dUL43Ki58Pw:APA91bEaiUgYjNfE3cnXlGCkT6ipl2AyMWAj2Y4kyHhx9l70UKGy-jT-JOVqH5SxPaqAoPUlbsggjdIcc8nh9pcZtWeEFxIi_bt5Md8hzrBr7GorSvHXMqp1DKOKHaBEZB7cxxuZV_n8");
-		ids.add("xfdfdfdsf");
-		ids.add("c-aindFvn50:APA91bFekFcRFSVCR67hn3hZvyHD4nYgWlAXNH3MFmSMKPnQJhwmeTYxbe1eq08ZVPZzi_T5thD35DtYKcUD40zmmLVQp7b1NEZLoFP9tnL592I7Y_nZluBmhjPtvJsxTdC9J_iceE7d");
-		*/
-		
 		JSONObject info = new JSONObject();
 		info.put("title", "Notification Title");   // Notification title
 		info.put("body", "HI, Happy New Year 2017"); // Notification body
